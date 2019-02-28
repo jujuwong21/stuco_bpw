@@ -35,3 +35,18 @@
 	padding: 20px;
 	text-align: center;
 }
+
+.empty-box{
+	background-color: white;
+	padding: 40px;
+}
+
+.exp-header{
+	background-color: white;
+	color: black;
+	font-family: Blagovest;
+	font-size: 2em;
+	font-style: bold;
+	padding: 20px;
+	text-align: center;	
+}
