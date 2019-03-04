@@ -18,9 +18,9 @@
 	text-decoration: none;
 }
 
-.about-me{
+.o-header{
 	background-color: white;
-	color: black;
+	color: #395e60;
 	font-family: Blagovest;
 	font-size: 3em;
 	font-style: bold;
@@ -32,21 +32,43 @@
 	background-color: white;
 	color: DimGrey;
 	font-family: Tahoma;
+	font-size: 1.25em;
 	padding: 20px;
 	text-align: center;
 }
 
 .empty-box{
 	background-color: white;
-	padding: 40px;
+	color: white;
+	padding: 20px;
 }
 
 .exp-header{
 	background-color: white;
-	color: black;
+	color: CadetBlue;
 	font-family: Blagovest;
 	font-size: 2em;
 	font-style: bold;
-	padding: 20px;
-	text-align: center;	
+	padding-left: 20px;
+	text-align: left;	
+}
+
+.exp-sub{
+	background-color: white;
+	color: DimGrey;
+	font-family: Blogovest;
+	font-size: 1.5em;
+	font-style: bold;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.exp-words{
+	background-color: white;
+	color: DimGrey;
+	font-family: Tahoma;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	text-align: left;
 }
