@@ -35,10 +35,6 @@
 }
 
 
-
-
-
-
 /* General */
 
 .empty-box{
@@ -49,8 +45,7 @@
 
 
 .exp-header{
-  background-color: white;
-  color: CadetBlue;
+  color: white;
   font-family: Blagovest;
   font-size: 2em;
   font-style: bold;
@@ -59,8 +54,7 @@
 }
 
 .exp-sub{
-  background-color: white;
-  color: DimGrey;
+  color: white;
   font-family: Blagovest;
   font-size: 1.5em;
   font-style: bold;
@@ -72,6 +66,7 @@
   background-color: white;
   color: DimGrey;
   font-family: Tahoma;
+  padding-top: 40px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -98,6 +93,25 @@
   text-align: center; 
 }
 
+.ed-header{
+  background-color: white;
+  color: CadetBlue;
+  font-family: Blagovest;
+  font-size: 2em;
+  font-style: bold;
+  padding-left: 20px;
+  text-align: center; 
+}
+
+.ed-sub{
+  background-color: white;
+  color: DimGrey;
+  font-family: Blagovest;
+  font-size: 1.5em;
+  font-style: bold;
+  padding-left: 20px;
+  text-align: center;
+}
 
 /* About me section*/
 
@@ -111,11 +125,37 @@
   background-color: white;
   color: DimGrey;
   font-family: Tahoma;
-  font-size: 1.25em;
+  font-size: 1.15em;
   padding: 20px;
   padding-left: 50px;
   text-align: center;
 }
+
+/* Experience Expanding Section: copied from W3 Schools; */
+.collapsible {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #395e60;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
 
 /* Code taken from W3 Schools*/
 /* Icons from fontawesome.com*/
@@ -175,7 +215,7 @@
 
 .container-table100 {
   width: 100%;
-  background: Grey;
+  border: black;
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -192,12 +232,14 @@
   width: 960px;
   border-radius: 10px;
   overflow: hidden;
+  border: black;
 }
 
 .table {
   width: 80%;
   display: table;
   margin: 0;
+  border: black;
 }
 
 @media screen and (max-width: 768px) {
