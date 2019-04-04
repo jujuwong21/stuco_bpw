@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width-device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="icon" href="cool_icon.png">
+	<link rel="icon" href="Images/Icon.png">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -22,27 +22,85 @@
 
 	<div class=about-text> As a former rhythmic gymnast, I now choose to express myself through contemporary dance. Here are some of the dances that I have done. I choreographed these myself unless stated otherwise.</div>
 
-	<!-- Video Unavailable-->
-	<div class=about-image> <iframe width="560" height="315" src="https://www.youtube.com/embed/1kY8uNH-ZbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+	<button class="collapsible"> 
+		<div class=exp-header> Don't Let Me Down</div>
+		<div class=exp-sub> Cover by Conor Maynard <br /> Dancer's Symposium Performance, Fall 2018 </div>
+	</button>
+	<div class="content">
+		<div class=about-image> <iframe width="560" height="315" src="https://www.youtube.com/embed/1kY8uNH-ZbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+		<div class=exp-words>  [hi here is a placeholder] </div>
+	</div>
 
-	<div class=exp-header> Don't Let Me Down </div>
-	<div class=exp-sub> Cover by Conor Maynard  <br /> Dancer's Symposium Performance, Fall 2018 </div>
-	<div class=exp-words> insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here. insert stuff about what this dance meant to me and how i did it here </div>
+	<div class="empty-box"> </div>
+
+	<button class="collapsible"> 
+		<div class=exp-header> Little Things</div>
+		<div class=exp-sub> One Direction <br /> Personal (Solo) Choreography </div>
+	</button>
+	<div class="content">
+		<div class=about-image> <iframe width="560" height="315" src="https://www.youtube.com/embed/1kY8uNH-ZbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+		<div class=exp-words>  [hi here is a placeholder but this one was in honor of National Eating Disorder Awareness Week 2019]  </div>
+	</div>
+	
 
 	<div class='o-header'> Rhythmic Gymnastics </div>
   	
 	<div class=about-text> Here are also some videos of me doing rhythmic gymnastics! </div>
 
-	 <iframe width="560" height="315" src="https://www.youtube.com/embed/lbFdWXtcLgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+	<div class="responsive">
+  		<div class="gallery">
+    		<a target="_blank" href="#">
+      		<iframe width="560" height="315" src="https://www.youtube.com/embed/lbFdWXtcLgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    	</a>
+   	 	<div class="desc">Add a description of the image here</div>
+  		</div>
+	</div>
 
-	<!-- Video Unavailable-->
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/scyag-smwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="responsive">
+  		<div class="gallery">
+    		<a target="_blank" href="#">
+      		<iframe width="560" height="315" src="https://www.youtube.com/embed/scyag-smwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</a>
+   	 	<div class="desc">Add a description of the image here</div>
+  		</div>
+	</div>
 
-	<!-- Video Unavailable-->
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/3ULGwE8TtFE"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="responsive">
+  		<div class="gallery">
+    		<a target="_blank" href="#">
+      		<iframe width="560" height="315" src="https://www.youtube.com/embed/3ULGwE8TtFE"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</a>
+   	 	<div class="desc">Add a description of the image here</div>
+  		</div>
+	</div>
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/ny6iRo5w1Tk?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+	<div class="responsive">
+  		<div class="gallery">
+    		<a target="_blank" href="#">
+      		<iframe width="560" height="315" src="https://www.youtube.com/embed/ny6iRo5w1Tk?start=5" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    	</a>
+   	 	<div class="desc">Add a description of the image here</div>
+  		</div>
+	</div>	
+
+
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+  		coll[i].addEventListener("click", function() {
+    	this.classList.toggle("active");
+    	var content = this.nextElementSibling;
+    	if (content.style.maxHeight){
+      		content.style.maxHeight = null;
+    	} else {
+      		content.style.maxHeight = content.scrollHeight + "px";
+    	} 
+  	});
+	}
+	</script>
 
 	<footer align="center">
 		<a href="https://www.facebook.com/JulietteeWong" class="fa fa-facebook"></a>
