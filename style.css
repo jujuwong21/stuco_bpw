@@ -1,14 +1,5 @@
 /* Nav Bar*/
 
-.nav-background{
-	width: 100%;
-	height: 50px;
-	margin: 0;
-	background: CadetBlue;
-	position: sticky;
-	top: 0;
-}
-
 .nav-bar{
 	width: 100%;
 	height: 50px;
@@ -25,12 +16,14 @@
 	color: white;
 	display: inline-block;
 	margin: 0;
-	font-family: fantasy;
+	font-family: 'Oleo Script';
 	text-decoration: none;
 }
 
-.nav-bar > .element :hover{
-	cursor: pointer;
+
+.nav-bar > .element:hover{
+  cursor: pointer;
+  background: #395e60;
 }
 
 
@@ -76,12 +69,23 @@
   float: left;
   display: fixed;
   padding: 15px;
+  width: "378";
+  height: "504";
+}
+
+@media screen and (max-width: 800px) {
+  .exp-image{
+    float: none;
+    display: none;
+    padding: 0px;
+    overflow: hidden;
+  }
 }
 
 .o-header{
   background-color: white;
   color: #395e60;
-  font-family: Blagovest;
+  font-family: 'Oleo Script';
   font-size: 3em;
   font-style: bold;
   padding: 20px;
@@ -91,30 +95,23 @@
 .dance-header{
   background-color: white;
   color: #395e60;
-  font-family: Blagovest;
+  font-family: 'Oleo Script';
   font-size: 3em;
   font-style: bold;
-  padding: 20px;
+  padding: 5px;
+  padding-top: 15px;
   text-align: center; 
 }
 
-.da-header{
-  color: CadetBlue;
-  font-family: Blagovest;
-  font-size: 2em;
-  font-style: bold;
-  padding-left: 20px;
-  text-align: left; 
+.dance-text{
+  background-color: white;
+  color: DimGrey;
+  font-family: Tahoma;
+  font-size: 1.15em;
+  padding: 20px;
+  text-align: center;
 }
 
-.da-sub{
-  color: DimGrey;
-  font-family: Blagovest;
-  font-size: 1.5em;
-  font-style: bold;
-  padding-left: 20px;
-  text-align: left;
-}
 
 .ed-header{
   background-color: white;
@@ -150,6 +147,30 @@
   padding: 20px;
   padding-left: 50px;
   text-align: center;
+}
+
+.abt-image{
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .about-image{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abt-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about-text{
+    padding-left: 0px;
+    font-size: 0.85em;
+  }
 }
 
 /* Experience Expanding Section: copied from W3 Schools; */
@@ -376,7 +397,6 @@
   padding: 16px;
   font-size: 16px;
   border: none;
-  cursor: pointer;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -511,7 +531,7 @@
   display: table;
 }
 
-#video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4{
+#video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6{
   animation: 1200ms fadeIn ease;
   animation-fill-mode: both;
   opacity: 1;
@@ -659,7 +679,7 @@
     width: 100%;
   }
 
-  #video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4 {
+  #video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6 {
     width: 100%;
   }
 
