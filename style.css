@@ -16,7 +16,7 @@
 	color: white;
 	display: inline-block;
 	margin: 0;
-	font-family: 'Oleo Script';
+	font-family: 'Oleo Script', cursive;
 	text-decoration: none;
 }
 
@@ -85,7 +85,7 @@
 .o-header{
   background-color: white;
   color: #395e60;
-  font-family: 'Oleo Script';
+  font-family: 'Oleo Script', cursive;
   font-size: 3em;
   font-style: bold;
   padding: 20px;
@@ -95,7 +95,7 @@
 .dance-header{
   background-color: white;
   color: #395e60;
-  font-family: 'Oleo Script';
+  font-family: 'Oleo Script', cursive;
   font-size: 3em;
   font-style: bold;
   padding: 5px;
@@ -443,7 +443,7 @@
 /* Gallery-style for Videos */
 
 .video {
-  position: relative;
+  position: fixed;
   padding-top: 4.1%;
   padding-bottom: 51.95%;
   height: 0;

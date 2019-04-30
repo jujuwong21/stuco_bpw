@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="icon" href="Images/Icon.png">
-	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script' >
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -25,11 +25,9 @@
 
 	<div class="grid-row reverse video-gallery">
  		<input type="radio" value="1" name="video-list" id="video-1" checked="checked" /><label for="video-1"> Don't Let Me Down <br/> Dancer's Symposium, F18 </label>
- 		<input type="radio" value="2" name="video-list" id="video-2" /><label for="video-2">Little Things <br/> Personal Choreography, S19</label>
  	<!-- videos -->
- 		<div class="video video-1"> <iframe width="560" height="315" src="https://www.youtube.com/embed/1kY8uNH-ZbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+ 		<div class="video video-1"> <video width="560" height="315" src="Videos/DS_DLMD.mp4" frameborder="0" controls allowfullscreen></video> </div>
 
- 		<div class="video video-2"> <video controls="controls" width="560" height="315" src="Videos/LittleThings.MOV"></video></iframe> </div>
 	</div>
 
 	<div class="empty-box"> </div>
@@ -62,7 +60,7 @@
 	<div class=dance-text> Here are also some videos of me doing rhythmic gymnastics! </div>
 
     <div class="grid-row reverse video-gallery">
- 		<input type="radio" value="3" name="video-list" id="video-3" checked="checked" /><label for="video-3"> High School Senior Project (Exhibition-style)</label>
+ 		<input type="radio" value="3" name="video-list" id="video-3" /><label for="video-3"> High School Senior Project (Exhibition-style)</label>
  		<input type="radio" value="4" name="video-list" id="video-4" /><label for="video-4">Clubs Routine, National Qualifiers, 2015</label>
  		<input type="radio" value="5" name="video-list" id="video-5" /><label for="video-5"> Ball Routine, National Qualifiers, 2015</label>
  		<input type="radio" value="6" name="video-list" id="video-6" /><label for="video-6">Hoop Routine, Regionals, 2015</label>
@@ -78,23 +76,6 @@
 
 	<div class=empty-box> </div>
 
-
-	<script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-
-	for (i = 0; i < coll.length; i++) {
-  		coll[i].addEventListener("click", function() {
-    	this.classList.toggle("active");
-    	var content = this.nextElementSibling;
-    	if (content.style.maxHeight){
-      		content.style.maxHeight = null;
-    	} else {
-      		content.style.maxHeight = content.scrollHeight + "px";
-    	} 
-  	});
-	}
-	</script>
 
 	<footer align="center">
 		<a href="https://www.facebook.com/JulietteeWong" class="fa fa-facebook"></a>
